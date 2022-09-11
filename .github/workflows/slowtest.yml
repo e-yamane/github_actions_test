@@ -1,8 +1,8 @@
 name: slowtest
 
 on:
-  schedul:
-    - cron: '*/5 * * * *'
+  schedule:
+    - crone: '*/5 * * * *'
 
 
 jobs:
