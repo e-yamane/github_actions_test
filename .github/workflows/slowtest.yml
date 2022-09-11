@@ -1,7 +1,7 @@
 name: slowtest
 
 on:
-  schedule:
+  schedul:
     - cron: '*/5 * * * *'
 
 
