@@ -1,9 +1,8 @@
 name: slowtest
 
 on:
-  push
-#  schedule:
-#    - cron: '40 3 * * *'
+  schedule:
+    - cron: '50 3 * * *'
 
 
 jobs:
