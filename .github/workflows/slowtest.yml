@@ -2,7 +2,7 @@ name: slowtest
 
 on:
   schedule:
-    - crone: '*/5 * * * *'
+    - cron: '40 3 * * *'
 
 
 jobs:
