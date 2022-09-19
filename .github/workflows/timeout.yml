@@ -1,0 +1,13 @@
+name: timeout
+
+on:
+  push
+
+jobs:
+  timeout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - run: date
+      - run: sleep 3
+      - run: date
