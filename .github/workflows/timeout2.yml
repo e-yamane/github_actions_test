@@ -11,6 +11,7 @@ jobs:
       - name: foot_print_start_datetime
         run: date
       - name: long_run_step
+        continue-on-error: true
         run: sleep 125
       - name: foot_print_end_datetime
         run: date
