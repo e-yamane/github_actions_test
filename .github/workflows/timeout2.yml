@@ -6,11 +6,11 @@ on:
 jobs:
   timeout2:
     runs-on: ubuntu-latest
-    timeout-minutes: 2
     steps:
       - name: foot_print_start_datetime
         run: date
       - name: long_run_step
+    　   timeout-minutes: 2
         continue-on-error: true
         run: sleep 125
       - name: foot_print_end_datetime
