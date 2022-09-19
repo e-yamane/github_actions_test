@@ -9,5 +9,5 @@ jobs:
     timeout-minutes: 2
     steps:
       - run: date
-      - run: sleep 
+      - run: sleep 125
       - run: date
